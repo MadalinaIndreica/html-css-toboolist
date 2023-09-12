@@ -9,8 +9,11 @@ body{
 }
 
 .container {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
+}
+body{
+    background-color: #f6f8f9;
 }
 /* header */
 header{
@@ -30,6 +33,38 @@ header{
     vertical-align: middle;
 }
 /* /header */
-body{
-    background-color: #f6f8f9;
+
+/* main */
+main {
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+
 }
+        /* buttons */
+        .first-button{
+        margin-bottom: 20px;
+            margin-top: 20px;
+            height: 30px;
+            background-color: #48adf1;
+            border-radius: 7px;
+            padding: 7px;
+            color: white;
+            border-color:#48adf1 ;
+            
+
+        }
+            .second-button{
+                height: 30px;
+                border-radius: 7px;
+                padding: 7px;
+                color: lightslategray;
+                border-color: lightslategray;
+            }
+        /* /buttons */
+
+
+
+    /* /main */
