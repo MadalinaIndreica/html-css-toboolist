@@ -41,11 +41,12 @@ main {
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 40px;
+    line-height: 40px;
 
 }
         /* buttons */
         .first-button{
-        margin-bottom: 20px;
+            margin-bottom: 20px;
             margin-top: 20px;
             height: 30px;
             background-color: #48adf1;
@@ -63,8 +64,79 @@ main {
                 color: lightslategray;
                 border-color: lightslategray;
             }
+            .checkmarks {
+               background-color: #ffffff;
+               border-radius: 100%;
+               border-style:ridge;
+               border-color:rgb(82, 199, 82) ;
+               color: rgb(82, 199, 82);
+               padding: 2px;
+               margin: 5px;
+            }
+            .crosses{
+            background-color: #ffffff;
+               border-radius: 100%;
+               border-style:ridge;
+               border-color:rgb(253, 47, 47) ;
+               color: rgb(253, 47, 47) ;
+               padding: 2px;
+               margin: 5px;
+
+
+            }
         /* /buttons */
 
+        /* list */
+        
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        .blue-highlight {
+            background-color: #48adf1;
+            border-radius: 5px;
+            margin: 7px;
+            padding: 3px;
+            color: white;
+        }
+        .violet-highlight  {
+            background-color:rgb(161, 0, 161);
+            border-radius: 5px;
+            margin: 7px;
+            padding: 3px;
+            color: white;
+        
+        }
+        .green-highlight{
+            background-color:rgb(44, 141, 44);
+            border-radius: 5px;
+            margin: 7px;
+            padding: 3px;
+            color: white;
+
+        }
+        .orange-highlight{
+            background-color:rgb(255, 140, 40);
+            border-radius: 5px;
+            margin: 7px;
+            padding: 3px;
+            color: white;
+
+        }
+        .pink-highlight{
+            background-color:rgb(201, 75, 127);
+            border-radius: 5px;
+            margin: 7px;
+            padding: 3px;
+            color: white;
+
+        }
+        
+        
+        
+        
+        /* /list */
 
 
     /* /main */
