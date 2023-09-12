@@ -11,6 +11,11 @@ body{
 .container {
     width: 50%;
     margin: 0 auto;
+    
+}
+.second-container {
+    width: 50%;
+    margin: 0 auto;
 }
 body{
     background-color: #f6f8f9;
@@ -42,6 +47,7 @@ main {
     margin-right: 200px;
     margin-bottom: 40px;
     line-height: 40px;
+   
 
 }
         /* buttons */
@@ -95,41 +101,46 @@ main {
         
         .blue-highlight {
             background-color: #48adf1;
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 7px;
-            padding: 3px;
+            padding: 5px;
             color: white;
+            font-size: 10px;
         }
         .violet-highlight  {
             background-color:rgb(161, 0, 161);
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 7px;
-            padding: 3px;
+            padding: 5px;
             color: white;
+            font-size: 10px;
         
         }
         .green-highlight{
             background-color:rgb(44, 141, 44);
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 7px;
-            padding: 3px;
+            padding: 5px;
             color: white;
+            font-size: 10px;
 
         }
         .orange-highlight{
             background-color:rgb(255, 140, 40);
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 7px;
-            padding: 3px;
+            padding: 5px;
             color: white;
+            font-size: 10px;
 
         }
         .pink-highlight{
             background-color:rgb(201, 75, 127);
-            border-radius: 5px;
+            border-radius: 7px;
             margin: 7px;
-            padding: 3px;
+            padding: 5px;
             color: white;
+            font-size: 10px;
 
         }
         
